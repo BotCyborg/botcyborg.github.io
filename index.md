@@ -1,82 +1,117 @@
-# Pal Sambit
-
-Experimental Physicist → Industrial AI Systems → Robotics & Physical Intelligence
-
-I build systems that connect sensors, perception, and intelligent decision-making to real-world machines.
-
-My work spans quantum optics experiments, large-scale industrial computer vision deployments, terminal automation platforms, and robotics systems that learn tasks from human demonstrations.
-
-I founded **mVizn** and built it from the ground up into a company delivering AI-driven vision systems for container terminal operations.
-
+---
+title: Home
+layout: default
 ---
 
-## Areas of Work
+# What I Work On
 
-### Quantum Physics & Precision Systems
+<section>
 
-Experimental quantum physics at the **Centre for Quantum Technologies (NUS)**.
+## Quantum Physics & Precision Systems
+
+My early work was in experimental quantum physics at the **Centre for Quantum Technologies (NUS)**, where I designed and built precision optical and laser systems for ultracold atomic physics experiments.
 
 Work included:
 
 - laser stabilization systems  
 - optical frequency comb metrology  
-- ultracold atomic physics experiments  
-- nonlinear optics using Rydberg atoms
+- Raman spectroscopy laser platforms  
+- nonlinear optics using Rydberg atoms  
 
-[Read more →](quantum.md)
+These experiments involved building complex hardware systems combining optics, RF electronics, vacuum systems, and precision instrumentation.
 
----
+[Read more →](quantum.html)
 
-### Industrial Computer Vision
+</section>
 
-Built large-scale **multi-camera AI systems for container terminals**.
+<section>
 
-These systems perform:
+## Industrial Computer Vision
+
+At **mVizn**, I designed and deployed large-scale **multi-camera AI systems for container terminals**.
+
+These systems combine distributed camera networks, edge GPU compute, and computer vision models to monitor and guide crane operations in real time.
+
+Core capabilities include:
 
 - vehicle alignment guidance  
 - crane-operation safety monitoring  
 - container placement verification  
-- operational automation
+- integration with terminal automation systems  
 
-[Read more →](industrial-vision.md)
+[Read more →](industrial-vision.html)
+
+</section>
+
+<section>
+
+## Robotics & Physical Intelligence
+
+My more recent work focuses on robotics systems that convert **human assembly demonstrations into executable robot tasks**.
+
+These platforms combine:
+
+- multi-camera RGB-D perception  
+- CAD-aware 6D pose estimation  
+- symbolic task-graph generation  
+- digital-twin validation  
+- robotic motion planning  
+
+The goal is to capture human process knowledge and convert it into reusable robotic automation.
+
+[Read more →](robotics.html)
+
+</section>
+
+<section>
+
+## Systems Platforms
+
+Much of my work sits at the intersection of AI and operational infrastructure.
+
+I have built platforms that connect perception systems with industrial control systems including:
+
+- terminal monitoring platforms  
+- crane operations interfaces  
+- backend event processing systems  
+- PLC communication layers  
+
+[Read more →](systems.html)
+
+</section>
 
 ---
 
-### Robotics & Physical Intelligence
+# Selected Projects
 
-Systems that convert **human demonstrations into robot-executable task graphs** using multi-camera perception and CAD-aware 6D pose estimation.
+<section>
 
-[Read more →](robotics.md)
+### EndFeed_VA  
+Multi-camera video analytics platform for container terminal transfer zones.
 
----
+### mviznARMG  
+Operational interface for crane safety monitoring and camera analytics integration.
 
-### Systems Platforms
+### TZMMS Backend  
+Terminal Zone Monitoring & Management backend platform.
 
-Operational platforms integrating AI systems with **industrial control systems and PLC infrastructure**.
+### Aptitude  
+Robotics process intelligence platform converting human demonstrations into robot task graphs.
 
-[Read more →](systems.md)
+</section>
 
----
-
-## Selected Projects
-
-- EndFeed_VA — multi-camera terminal vision platform  
-- mviznARMG — crane safety monitoring interface  
-- TZMMS Backend — terminal monitoring platform  
-- Aptitude — robotics process intelligence system  
-
-[View project details →](projects.md)
+[View full project details →](projects.html)
 
 ---
 
-## Links
+# Links
 
-GitHub: https://github.com/BotCyborg  
-LinkedIn: https://www.linkedin.com/in/sbpal/
+- GitHub: https://github.com/BotCyborg  
+- LinkedIn: https://www.linkedin.com/in/sbpal/
 
 ---
 
-## Contact
+# Contact
 
 Singapore  
 
