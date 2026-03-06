@@ -1,47 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="nav-wrap">
-        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-        <nav class="site-nav">
-          <a href="{{ '/' | relative_url }}">Home</a>
-          <a href="{{ '/quantum.html' | relative_url }}">Quantum</a>
-          <a href="{{ '/industrial-vision.html' | relative_url }}">Industrial Vision</a>
-          <a href="{{ '/robotics.html' | relative_url }}">Robotics</a>
-          <a href="{{ '/systems.html' | relative_url }}">Systems</a>
-          <a href="{{ '/projects.html' | relative_url }}">Projects</a>
-        </nav>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% if page.url == "/" or page.name == "index.md" %}
-    <section class="hero">
-      <div class="hero-inner">
-        <p class="hero-kicker">Pal Sambit</p>
-        <h1>Experimental Physicist → Industrial AI Systems → Robotics & Physical Intelligence</h1>
-        <p class="hero-text">
-          I build systems that connect sensors, perception, and intelligent decision-making to real-world machines.
-        </p>
-        <div class="hero-links">
-          <a class="button" href="{{ '/projects.html' | relative_url }}">View Projects</a>
-          <a class="button button-secondary" href="https://github.com/BotCyborg">GitHub</a>
-          <a class="button button-secondary" href="https://www.linkedin.com/in/sbpal/">LinkedIn</a>
-        </div>
-      </div>
-    </section>
+  <title>
+    {% if page.title %}
+      {{ page.title }} | {{ site.title }}
+    {% else %}
+      {{ site.title }}
     {% endif %}
+  </title>
 
-    <main class="page-content">
-      <div class="content-wrap">
-        {{ content }}
-      </div>
-    </main>
-  </body>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+
+    <a class="site-title" href="{{ '/' | relative_url }}">
+      {{ site.title }}
+    </a>
+
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/quantum.html' | relative_url }}">Quantum</a>
+      <a href="{{ '/industrial-vision.html' | relative_url }}">Industrial Vision</a>
+      <a href="{{ '/robotics.html' | relative_url }}">Robotics</a>
+      <a href="{{ '/systems.html' | relative_url }}">Systems</a>
+      <a href="{{ '/projects.html' | relative_url }}">Projects</a>
+    </nav>
+
+  </div>
+</header>
+
+{% if page.url == "/" or page.name == "index.md" %}
+
+<section class="hero">
+  <div class="hero-inner">
+
+    <p class="hero-kicker">Pal Sambit</p>
+
+    <h1>
+      Experimental Physicist → Industrial AI Systems → Robotics & Physical Intelligence
+    </h1>
+
+    <p class="hero-text">
+      I build systems that connect sensors, perception, and intelligent decision-making to real-world machines.
+      My work spans quantum optics, industrial computer vision systems deployed in container terminals,
+      and robotics platforms that learn tasks from human demonstrations.
+    </p>
+
+    <div class="hero-links">
+
+      <a class="button" href="{{ '/projects.html' | relative_url }}">
+        View Projects
+      </a>
+
+      <a class="button button-secondary" href="https://github.com/BotCyborg">
+        GitHub
+      </a>
+
+      <a class="button button-secondary" href="https://www.linkedin.com/in/sbpal/">
+        LinkedIn
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+{% endif %}
+
+<main class="page-content">
+  <div class="content-wrap">
+
+    {{ content }}
+
+  </div>
+</main>
+
+</body>
 </html>
