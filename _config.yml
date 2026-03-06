@@ -1,4 +1,10 @@
 title: Pal Sambit
 description: Experimental Physicist → Industrial AI Systems → Robotics
 theme: jekyll-theme-cayman
-github_username: BotCyborg
+
+header_pages:
+  - quantum.md
+  - industrial-vision.md
+  - robotics.md
+  - systems.md
+  - projects.md
