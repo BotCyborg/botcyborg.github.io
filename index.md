@@ -6,121 +6,148 @@ layout: default
 # What I Work On
 
 <div class="card">
+  <h2>Quantum Physics &amp; Precision Systems</h2>
 
-## Quantum Physics & Precision Systems
+  <p>
+    My early work was in experimental quantum physics at the <strong>Centre for Quantum Technologies (NUS)</strong>,
+    where I designed and built precision optical and laser systems for ultracold atomic physics experiments.
+  </p>
 
-My early work was in experimental quantum physics at the **Centre for Quantum Technologies (NUS)**, where I designed and built precision optical and laser systems for ultracold atomic physics experiments.
+  <p>Work included:</p>
 
-Work included:
+  <ul>
+    <li>laser stabilization systems</li>
+    <li>optical frequency comb metrology</li>
+    <li>Raman spectroscopy laser platforms</li>
+    <li>nonlinear optics using Rydberg atoms</li>
+  </ul>
 
-- laser stabilization systems
-- optical frequency comb metrology
-- Raman spectroscopy laser platforms
-- nonlinear optics using Rydberg atoms
+  <p>
+    These experiments involved building complex hardware systems combining optics, RF electronics,
+    vacuum systems, and precision instrumentation.
+  </p>
 
-These experiments involved building complex hardware systems combining optics, RF electronics, vacuum systems, and precision instrumentation.
-
-[Read more →](quantum.html)
-
+  <p><a href="quantum.html">Read more →</a></p>
 </div>
 
 <div class="card">
+  <h2>Industrial Computer Vision</h2>
 
-## Industrial Computer Vision
+  <p>
+    At <strong><a href="https://mvizn.com">mVizn</a></strong>, I designed and deployed large-scale <strong>multi-camera AI systems for container terminals</strong>.
+  </p>
 
-At **[mVizn](https://mvizn.com)**, I designed and deployed large-scale **multi-camera AI systems for container terminals**.
+  <p>
+    These systems combine distributed camera networks, edge GPU compute, and computer vision models
+    to monitor and guide crane operations in real time.
+  </p>
 
-These systems combine distributed camera networks, edge GPU compute, and computer vision models to monitor and guide crane operations in real time.
+  <p>Core capabilities include:</p>
 
-Core capabilities include:
+  <ul>
+    <li>vehicle alignment guidance</li>
+    <li>crane-operation safety monitoring</li>
+    <li>container placement verification</li>
+    <li>integration with terminal automation systems</li>
+  </ul>
 
-- vehicle alignment guidance
-- crane-operation safety monitoring
-- container placement verification
-- integration with terminal automation systems
+  <p>
+    I founded <strong>mVizn</strong> and built it from the ground up into a company delivering AI-driven
+    vision systems for container terminal operations.
+  </p>
 
-I founded **[mVizn](https://mvizn.com)** and built it from the ground up into a company delivering AI-driven vision systems for container terminal operations.
-
-[Read more →](industrial-vision.html)
-
+  <p><a href="industrial-vision.html">Read more →</a></p>
 </div>
 
 <div class="card">
+  <h2>Robotics &amp; Physical Intelligence</h2>
 
-## Robotics & Physical Intelligence
+  <p>
+    My more recent work focuses on robotics systems that convert
+    <strong>human assembly demonstrations into executable robot tasks</strong>.
+  </p>
 
-My more recent work focuses on robotics systems that convert **human assembly demonstrations into executable robot tasks**.
+  <p>These platforms combine:</p>
 
-These platforms combine:
+  <ul>
+    <li>multi-camera RGB-D perception</li>
+    <li>CAD-aware 6D pose estimation</li>
+    <li>symbolic task-graph generation</li>
+    <li>digital-twin validation</li>
+    <li>robotic motion planning</li>
+  </ul>
 
-- multi-camera RGB-D perception
-- CAD-aware 6D pose estimation
-- symbolic task-graph generation
-- digital-twin validation
-- robotic motion planning
+  <p>
+    The goal is to capture human process knowledge and convert it into reusable robotic automation.
+  </p>
 
-The goal is to capture human process knowledge and convert it into reusable robotic automation.
-
-[Read more →](robotics.html)
-
+  <p><a href="robotics.html">Read more →</a></p>
 </div>
 
 <div class="card">
+  <h2>Systems Platforms</h2>
 
-## Systems Platforms
+  <p>
+    Much of my work sits at the intersection of AI and operational infrastructure.
+  </p>
 
-Much of my work sits at the intersection of AI and operational infrastructure.
+  <p>
+    I have built platforms that connect perception systems with industrial control systems including:
+  </p>
 
-I have built platforms that connect perception systems with industrial control systems including:
+  <ul>
+    <li>terminal monitoring platforms</li>
+    <li>crane operations interfaces</li>
+    <li>backend event processing systems</li>
+    <li>PLC communication layers</li>
+  </ul>
 
-- terminal monitoring platforms
-- crane operations interfaces
-- backend event processing systems
-- PLC communication layers
-
-[Read more →](systems.html)
-
+  <p><a href="systems.html">Read more →</a></p>
 </div>
+
+<hr>
 
 # Selected Projects
 
 <div class="card">
+  <h3>EndFeed_VA</h3>
+  <p>Multi-camera video analytics platform for container terminal transfer zones.</p>
 
-### EndFeed_VA
-Multi-camera video analytics platform for container terminal transfer zones.
+  <h3>mviznARMG</h3>
+  <p>Operational interface for crane safety monitoring and camera analytics integration.</p>
 
-### mviznARMG
-Operational interface for crane safety monitoring and camera analytics integration.
+  <h3>TZMMS Backend</h3>
+  <p>Terminal Zone Monitoring &amp; Management backend platform.</p>
 
-### TZMMS Backend
-Terminal Zone Monitoring & Management backend platform.
+  <h3>Aptitude</h3>
+  <p>Robotics process intelligence platform converting human demonstrations into robot task graphs.</p>
 
-### Aptitude
-Robotics process intelligence platform converting human demonstrations into robot task graphs.
+  <h3>Multi3DCameraStreaming</h3>
+  <p>ROS2-based multi-camera RGB-D perception ingestion layer for robotics systems.</p>
 
-### Multi3DCameraStreaming
-ROS2-based multi-camera RGB-D perception ingestion layer for robotics systems.
-
-[View full project details →](projects.html)
-
+  <p><a href="projects.html">View full project details →</a></p>
 </div>
+
+<hr>
 
 # Links
 
 <div class="card">
-
-- GitHub: [BotCyborg](https://github.com/BotCyborg)
-- LinkedIn: [sbpal](https://www.linkedin.com/in/sbpal/)
-
+  <ul>
+    <li>GitHub: <a href="https://github.com/BotCyborg">BotCyborg</a></li>
+    <li>LinkedIn: <a href="https://www.linkedin.com/in/sbpal/">sbpal</a></li>
+  </ul>
 </div>
+
+<hr>
 
 # Contact
 
 <div class="card">
+  <p>Singapore</p>
 
-Singapore
-
-[sam@botcyb.org](mailto:sam@botcyb.org)  
-[sambitbikaspal@gmail.com](mailto:sambitbikaspal@gmail.com)
-
+  <p>
+    <a href="mailto:sam@botcyb.org">sam@botcyb.org</a><br>
+    <a href="mailto:sambitbikaspal@gmail.com">sambitbikaspal@gmail.com</a>
+  </p>
 </div>
