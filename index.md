@@ -12,7 +12,7 @@ I founded **mVizn** and built it from the ground up into a company delivering AI
 
 ## Areas of Work
 
-### Quantum Optics & Precision Systems
+### Quantum Physics & Precision Systems
 
 Experimental quantum physics at the **Centre for Quantum Technologies (NUS)**.
 
