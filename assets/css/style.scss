@@ -140,3 +140,59 @@
     font-size: 1.9rem;
   }
 }
+
+.page-content h2 {
+  margin-top: 2.25rem;
+  padding: 1.1rem 1.25rem 0.35rem;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-bottom: none;
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+}
+
+.page-content h2 + p,
+.page-content h2 + ul,
+.page-content h2 + blockquote,
+.page-content h2 + h3 {
+  margin-top: 0;
+}
+
+.page-content h2 ~ p,
+.page-content h2 ~ ul,
+.page-content h2 ~ h3,
+.page-content h2 ~ .highlighter-rouge {
+  background: #ffffff;
+  border-left: 1px solid #e2e8f0;
+  border-right: 1px solid #e2e8f0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.page-content h2 ~ ul {
+  padding-bottom: 0.5rem;
+}
+
+.page-content h2 ~ p:last-of-type,
+.page-content h2 ~ ul:last-of-type {
+  border-bottom: 1px solid #e2e8f0;
+  border-radius: 0 0 16px 16px;
+  padding-bottom: 1.25rem;
+}
+
+.page-content hr {
+  border: 0;
+  height: 1.25rem;
+  background: transparent;
+  margin: 0.25rem 0 1.25rem;
+}
+
+.page-content h3 {
+  margin-top: 1rem;
+}
+
+.page-content a {
+  font-weight: 500;
+}
